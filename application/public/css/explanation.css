@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(20, 8, 75);
+}
+
+.card {
+    position: absolute;
+    top: 10%;
+    left:30%;
+    width: 500px;
+    height: 1000px;
+    background-color: rgb(42, 216, 208);
+    border: solid 5px white;
+    border-radius: 30px;
+  }
+  
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+
+}
+
+p {
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+
+}
+
+.explanation {
+    margin: 25px;
+    
+}

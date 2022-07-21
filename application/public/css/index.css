@@ -1,0 +1,367 @@
+body {
+    background-color: rgb(20, 8, 75);
+}
+
+.card {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 800px;
+
+  background-color: rgb(42, 216, 208);
+  border: solid 5px white;
+  border-radius: 30px;
+}
+.checkbox{
+    margin-top: 1rem;
+    
+}
+.memorize{
+  padding: 1.2rem 1.2rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Chemical-formula {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  
+}
+.circle:hover{
+    background-color: white;
+
+}
+
+.button{
+   
+    margin: 1rem 0 0 2rem;
+    border-radius: 10px;
+    border: solid 1px white;
+    background-color: white;
+    padding: 10px;
+}
+
+span {
+  font-size: 1.2rem;  
+}
+
+.point {
+   color: white;
+   
+   font-size: 2.5rem;
+}
+
+
+
+.page{
+  
+  position: absolute;
+  left:18%;
+  bottom: 3%;
+  
+}
+
+
+.page li{
+  display: inline; 
+  padding:10px 15px;
+  border:solid 1px ;
+  border-radius: 5px ;
+  color: rgb(42, 216, 208);
+  background-color: white;
+    
+}
+
+.page :hover {
+  background-color: rgb(255, 231, 51);
+  text-decoration: none;
+}
+
+
+.page .this {
+  background-color:rgb(231, 219, 177); 
+  color:rgb(140, 59, 206);
+  text-decoration: none;
+}
+
+.page a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#point {  
+  margin: 0 1.5rem;
+  color: white;
+  cursor: pointer;
+  width: 450px;
+  padding: 10px; 
+  text-align: left;
+  border: 1px solid white;
+  border-radius: 5px ;
+  background-color: rgb(42, 216, 208);
+}
+
+#point-button{
+  text-align: center;
+}
+
+#point-text {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0 auto;
+  color: white; 
+}
+
+
+#check {  
+  margin: 0.5rem 1.5rem ;
+  color: white;
+  cursor: pointer;
+  width: 450px;
+  padding: 10px; 
+  border: 1px solid white;
+  border-radius: 5px ;
+  background-color: rgb(42, 216, 208);
+}
+
+
+#check-text {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  color: white; 
+  
+}
+
+/* 6ページ */
+#check-text-p6 {
+  font-size: 1rem;
+  text-align: left;
+  margin: 0 auto;
+  color: white; 
+}
+
+.ion {
+  font-size: 0.5rem;
+  vertical-align: top;
+  
+}
+
+.hg {
+  font-size: 0.5rem;
+}
+
+
+/* 3ページ */
+.circle-CuOH{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  
+}
+/* 3ページ */
+.circle-CuOH:hover {
+  background-color: rgb(52, 194, 222);
+  border: 1px solid white;
+  
+}
+/* 3ページ */
+.circle-FeOH2{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+}
+/* 3ページ */
+.circle-FeOH2:hover {
+  background-color: rgb(164, 213, 164);
+  border: 1px solid white;
+  
+}
+/* 3 4 ページ */
+.circle-reddish-brown{
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+}
+/* 3 4ページ */
+.circle-reddish-brown:hover {
+  
+  border: 1px solid white;
+  background: linear-gradient(180deg,rgb(128, 37, 2), rgb(237, 237, 116));
+  
+}
+/* 3ページ */
+.kasuu {
+  font-size: 0.5rem;
+}
+
+/* 4ページ */
+.circle-black {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+    
+}
+/* 4ページ */
+.circle-black:hover {
+    background-color: rgb(21, 21, 29);
+    border: 2px solid white;
+    
+}
+/* 7ページ */
+.circle-yellow {
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+    
+}
+/* 7ページ */
+.circle-yellow:hover {
+    background-color: yellow;
+    border: 2px solid white;
+    
+}
+
+/* 7ページ */
+
+.flame-reaction3{
+  display: inline;
+  
+	
+}
+
+.circle-Li {
+  
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle-Li:hover {
+  background-color: rgb(233, 47, 10);
+  border: 2px solid white;
+  
+}
+
+.circle-Na {
+  
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.circle-Na:hover {
+  background-color: rgb(222, 193, 48);
+  border: 2px solid white;
+  
+}
+
+.circle-K { 
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.circle-K:hover {
+  background-color: rgb(211, 154, 205);
+  border: 2px solid white;
+  
+}
+
+.circle-Cu { 
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.circle-Cu:hover {
+  background-color: rgb(21, 161, 131);
+  border: 2px solid white;
+  
+}
+
+.circle-Ca { 
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.circle-Ca:hover {
+  background-color: rgb(237, 104, 37);
+  border: 2px solid white;
+  
+}
+
+.circle-Sr { 
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.circle-Sr:hover {
+  background-color: rgb(183, 46, 101);
+  border: 2px solid white;
+  
+}
+
+.circle-Ba { 
+  width: 30px;
+  height: 30px;
+  background: black;
+  border-radius: 50%;
+}
+
+.circle-Ba:hover {
+  background-color: rgb(174, 247, 118);
+  border: 2px solid white;
+  
+}
+
+
+
+
+
+
+#flame-reaction {
+  
+  margin: 1rem auto;
+  cursor: pointer;
+  width: 450px;
+  padding: 10px; 
+  text-align: center;
+  border: 1px solid white;
+  border-radius: 5px ;
+  
+  
+}
+
+#flame-reaction2 {
+  color: white;
+  text-align: left;
+  display: inline;
+
+}

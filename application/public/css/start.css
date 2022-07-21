@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(20, 8, 75);
+}
+
+.card {
+  position: absolute;
+  top: 10%;
+  left:30%;
+  width: 500px;
+  height: 1000px;
+  background-color: rgb(42, 216, 208);
+  border: solid 5px white;
+  border-radius: 30px;
+}
+
+.start_button {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  text-align: center;
+  padding: 20px 30px;
+  margin-left: 10px;
+  border: solid 5px white;
+  border-radius: 10px;
+  background-color: rgb(42, 216, 208);
+  color: white;
+}
+.explanation_button {
+    font-size: 2.5rem;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    padding: 20px;
+    border: solid 5px white;
+    border-radius: 10px;
+    background-color: rgb(42, 216, 208);
+    color: white;
+
+} 
